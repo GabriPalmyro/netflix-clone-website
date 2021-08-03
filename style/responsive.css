@@ -6,14 +6,44 @@
         margin-bottom: 10px;
     }
 
+    header .netflix-logo {
+        margin: 10px;
+        width: 30%;
+    }
+
+    header nav a{
+        font-size: small;
+    }
+
+    .filme-principal {
+       height: 60%;
+    }
+
+    .filme-principal .sinopse {
+        font-size: 12px;
+        margin-bottom: 2rem;    
+    }
+
+    .filme-principal .titulo {
+        font-size: 28px;
+    }
+
     .botaoPlay {
         margin-bottom: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .botaoInfo {
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
     }
 
     .carousel-filmes .descricao-carousel {
         font-size: 18px;
     }
-
+    
 }
 
 @media screen and (min-width:1000px){
