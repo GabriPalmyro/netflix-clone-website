@@ -1,0 +1,190 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ELEMENTOS BASE */
+
+body {
+   background: var(--preta);
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+header .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header .logo {
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    color: var(--vermelho);
+    margin-left: 10px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: large;
+    margin-right: 10px;
+    transition: .3s ease all;
+}
+
+header nav a:hover{
+    color: #AAA;
+}
+
+
+header .netflix-logo {
+    margin: 15px;
+    width: 8%;
+}
+
+/*  FILME PRINCIPAL  */ 
+
+.filme-principal {
+    
+    display: flex;
+    font-size: 16px;
+    background: linear-gradient(to top,var(--preta), rgba(0, 0, 0, 0)60%), url("/img/capa-velozes-2.jpg");
+
+    height: 25em;
+    background-size: cover;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+}
+
+.filme-principal .sinopse {
+    margin-top: 10px;
+    margin-bottom: 3rem;
+    margin-right: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filme-principal .titulo {
+    font-size: 52px;
+    font-family:  Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    font-style: italic;
+    margin-top: 5%;
+}
+
+
+.botaoPlay {
+    background-color: rgba(255, 255, 255, .9);
+    border: none;
+    color: black;
+    border-radius: 4px;
+
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-right: 15px;
+
+    transition: .1s ease all;
+
+    cursor: pointer;
+}
+
+.botaoPlay:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.botaoPlay:active{
+    border: 2px solid #AAA ;
+}
+
+.botaoPlay i {
+    margin-right: 8px;
+}
+
+.botaoReagir {
+    background-color: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .4);
+    color: white;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 15px;
+
+    transition: .1s ease all;
+
+    cursor: pointer;
+}
+
+.botaoReagir:hover {
+    border: 2px solid white;
+}
+
+.container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.filme-infos {
+    margin-left: 4rem;
+    width: 50%;
+}
+
+.filme-infos .sinopse {
+    font-size: 20px;
+}
+
+.filme-infos .top-infos{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.relevancia {
+    color: rgb(20, 218, 20);
+}
+
+.botaoIdade {
+    background-color: red;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 18px;
+    padding: 10px 10px;
+
+    cursor: pointer;
+}
+
+.HD {
+    background-color: rgba(255, 255, 255, .1);
+    color: white;
+
+    border: .5px solid white;
+    border-radius: 5px;
+
+    font-size: 14px;
+    padding: 3px 15px;
+
+    cursor: pointer;
+}

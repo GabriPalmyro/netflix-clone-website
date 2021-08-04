@@ -102,6 +102,10 @@ header .netflix-logo {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.botaoPlay:active{
+    border: 2px solid #AAA ;
+}
+
 .botaoPlay i {
     margin-right: 8px;
 }
@@ -123,6 +127,10 @@ header .netflix-logo {
 
 .botaoInfo:hover {
     background-color: rgba(255, 255, 255, 0.15);
+}
+
+.botaoInfo:active{
+    border: 2px solid #AAA ;
 }
 
 .botaoInfo i {
@@ -154,6 +162,7 @@ header .netflix-logo {
 .carousel-filmes .descricao-carousel {
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 
@@ -161,6 +170,8 @@ header .netflix-logo {
     display: flex;
     border-radius: 5px;
     overflow: hidden;
+    background: linear-gradient(to right,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)80%);
+
 }
 
 .item:hover{
